@@ -57,6 +57,7 @@
           It is a measure of the minimum number of possible paths through the source and therefore the number
           of required tests, it is not a about quality of code!
         - Ensure comment indentation is consistent
+        - Updated ClassFanOutComplexity max to 30.
 
 -->
 
@@ -120,7 +121,7 @@
             <property name="ignorePrivateMethods" value="false"/> <!-- not in 5.9 -->
         </module>
         <module name="ClassFanOutComplexity">
-            <property name="max" value="10"/>
+            <property name="max" value="30"/>
         </module>
         <module name="CyclomaticComplexity"/> <!-- keep methods manageable -->
         <module name="NPathComplexity"/>
