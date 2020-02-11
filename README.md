@@ -1,7 +1,7 @@
 # checkstyle-rules
 601.226 Data Structures CheckStyle Rules
 
-The `cs226_ckecks.xml` is a copy of [`google_checks.xml`](https://github.com/checkstyle/checkstyle/blob/master/src/main/resources/google_checks.xml) which implements the [Google Java Style Guide](http://google.github.io/styleguide/javaguide.html) that is modifictions to enforce the following rules:
+The `cs226_checks.xml` is a copy of [`google_checks.xml`](https://github.com/checkstyle/checkstyle/blob/master/src/main/resources/google_checks.xml) which implements the [Google Java Style Guide](http://google.github.io/styleguide/javaguide.html) that is modifictions to enforce the following rules:
 
 - Enforcement for JavaDocs (class and public methods, no need for fields, setters, getters, overridden methods)
 - Do not check package name
@@ -38,3 +38,4 @@ The `cs226_ckecks.xml` is a copy of [`google_checks.xml`](https://github.com/che
   It is a measure of the minimum number of possible paths through the source and therefore the number
   of required tests, it is not a about quality of code!
 - Ensure comment indentation is consistent
+- Updated ClassFanOutComplexity max to 30.
